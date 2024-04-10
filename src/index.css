@@ -1,0 +1,102 @@
+
+*{
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.cont{
+  height: 100vh;
+  width: auto;
+  background-color: rgb(9, 9, 9);
+
+}
+html{
+ 
+  
+  background-image: linear-gradient(to top, #30cfd0 0%, #976dcb 100%);
+}
+.nav{
+  height: 5vh;
+  width: auto;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vh 2vh 0vh 2vh;
+ 
+}
+.nav h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav2{
+   width :40%;
+   display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5vw;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+.box{
+  height: 60vh;
+  width: 70vw;
+  background-color: #231772;
+  
+ display: flex;
+
+}
+.box form{
+  height: auto;
+  width: 50%;
+  color: rgb(12, 11, 11);
+  background-color:  #231772;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+
+  gap: 3vh;
+  
+}
+.box h2{
+  color: rgb(227, 227, 237);
+}
+.box input{
+  height: 3vh;
+  width: 25vh;
+ color: black;
+}
+.sbox {
+  height: 100%;
+  width: 50%;
+  background-color: #0593af;
+  border-radius: 500px 0px 0px 300px;
+  display: flex;
+  align-items: center;
+  
+  
+
+  flex-direction: column;
+}
+.sbox h2{
+  margin-left:7vw;
+}
+.box button {
+  width: 10vh;
+  height: 4vh;
+  background-color: rgb(71, 60, 143);
+  border-radius: 5px;
+
+  box-shadow: none;
+  border: none;
+  
+}
+.showt{
+  display: flex;
+  gap: 2vw;
+}
